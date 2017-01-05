@@ -1,0 +1,17 @@
+.profilePicture {
+    max-height: 250px;
+    max-width: 250px;
+}
+
+.profileForm {
+	display: none;
+	margin: 5px 0px 5px 0px;
+}
+
+.error {
+	color: red;
+}
+
+.inlineInput {
+	width: auto;
+}

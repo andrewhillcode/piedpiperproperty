@@ -1,0 +1,86 @@
+.hidden {
+	display: none;
+}
+
+.schedule textarea {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.border {
+	background-color: white;
+	border-radius: 40px;
+	width:48%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 2.5px;
+	min-width: 340px;
+}
+
+.border p{
+	margin: 10px 0px 10px;
+}
+
+.schedule {
+	margin-left: 15px;
+}
+
+.space {
+	width: 10%;
+}
+
+.center-container {
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+	padding-top: 7px;
+	padding-bottom: 7px;
+	vertical-align: middle;
+}
+
+td:nth-child(1) {
+	padding-left: 5px;
+	font-weight: bold;
+}
+
+td:nth-child(2) {
+	width: 10%;
+	padding-left: 5px;
+	padding-right: 10px;
+}
+
+td:nth-child(3), td:nth-child(4) {
+	width: 80px;
+}
+
+td:nth-child(5) {
+	border-radius: 10px;
+	display: block;
+	background-color: #A6DED1;
+	padding: 15px;
+}
+
+table .btn {
+	width: 75px;
+}
+
+tr {
+	transition: background-color 0.2s ease;
+	display: block;
+	border-radius: 10px;
+}
+
+tr:hover {
+	background-color: lightgrey;
+}
+
+.row {
+	margin-bottom: 50px;
+}

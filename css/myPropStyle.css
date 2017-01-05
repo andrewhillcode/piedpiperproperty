@@ -1,0 +1,49 @@
+.property-table {
+	table-layout: fixed;
+}
+
+
+
+table {
+    border-collapse: collapse;
+	width: 100%;
+}
+
+td:nth-child(1) {
+	padding-left: 5px;
+	width: 30px;
+}
+
+td:nth-child(4), td:nth-child(5) {
+
+	width: 80px;
+}
+
+table .btn {
+	width: 75px;
+}
+
+form {
+
+	margin: 0;
+}
+ 
+ td {
+ 	padding-top: 7px;
+ 	padding-bottom: 7px;
+ 	vertical-align: middle;
+ }
+
+
+tr {
+	transition: background-color 0.2s ease;
+}
+
+ tr:hover {
+ 	background-color: lightgrey;
+ }
+
+ .row {
+
+ 	margin-bottom: 50px;
+ }

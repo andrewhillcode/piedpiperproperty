@@ -1,0 +1,76 @@
+.property-table {
+  table-layout: fixed;
+}
+
+
+
+table {
+    border-collapse: collapse;
+  width: 100%;
+}
+
+td:nth-child(1) {
+  padding-left: 5px;
+  width: 30px;
+}
+
+td:nth-child(2), td:nth-child(3)  {
+  padding-left: 5px;
+  width: 250px;
+}
+
+td:nth-child(5), td:nth-child(6), td:nth-child(4) {
+
+  width: 80px;
+}
+
+table .btn {
+  width: 75px;
+}
+
+form {
+
+  margin: 0;
+}
+ 
+ td {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  vertical-align: middle;
+ }
+
+
+tr {
+  transition: background-color 0.2s ease;
+}
+
+ tr:hover {
+  background-color: lightgrey;
+ }
+
+ .row {
+
+  margin-bottom: 50px;
+ }
+
+ .bookings td:nth-child(1) {
+  padding-left: 5px;
+  width: 250px;
+}
+
+ .bookings td:nth-child(2),  .bookings td:nth-child(3) {
+  padding-left: 5px;
+  width: 100px;
+}
+
+ .bookings td:nth-child(4) {
+  padding-left: 5px;
+  width: 100px;
+}
+
+.bookings {
+
+   border-collapse: collapse;
+  margin: 0 auto;
+  width: auto;
+}
